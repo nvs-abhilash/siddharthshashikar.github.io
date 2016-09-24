@@ -1,0 +1,199 @@
+    body{
+      margin: 0;
+      padding: 0;
+      }
+    #header{
+        margin: 0;
+        padding: 0;
+        height:400px;
+        width: 100%;
+      }
+
+    #aboutme{
+        margin: 0;
+        padding: 0;
+        height:490px;
+        width: 100%;
+        background-color:#F4C790;
+      }
+
+    #contactme{
+        margin: 0;
+        padding: 0;
+        height:400px;
+        width: 100%;
+        background-color:#FFFFFF;
+      }
+
+    #footer{
+        margin: 0;
+        padding: 0;
+        height:150px;
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 400px;
+      }
+      .about{
+        font-family: Verdana,Geneva,sans-serif;
+        font-size:38px;
+        color : white;
+        text-align:center;
+        font-weight:normal;
+        position:relative;
+        top:40px;
+      }
+      .contact{
+        font-family: Verdana,Geneva,sans-serif;
+        font-size:38px;
+        color : #C99452;
+        text-align:center;
+        font-weight:normal;
+        position:relative;
+        top:40px;
+      }
+      .email{
+        font-family: Verdana,Geneva,sans-serif; 
+        font-size:38px;
+        color : #C99452;
+        text-align:center;
+        font-weight:normal;
+        position:relative;
+        top:110px;
+      }
+      p{
+        padding:0;
+        margin:0;
+      }
+      #facepic{
+          width:200px;
+          height:200px;
+          border-radius:50%;
+          position:relative;
+          top:100px;
+          left:550px;
+      }
+      #books{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:50px;
+          left:100px;
+      }
+
+      #code{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:50px;
+          left:120px;
+      }
+
+      #paint{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:50px;
+          left:370px;
+      }
+
+      #football{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:50px;
+          left:390px;
+      }
+
+      #block{
+        background-color:#C99452 ;
+        width:40%;
+        height:20px;
+        position:relative;
+        top:70px;
+        left:390px;
+      }
+      #nav1{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:150px;
+          left:400px;
+      }
+      #nav2{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:150px;
+          left:485px;
+      }
+      #nav3{
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          position:relative;
+          top:150px;
+          left:560px;
+      }
+      a img:hover{
+        box-shadow: 1px 6px 20px 0 rgba(0, 0, 0, 0.5);
+      }
+      #topmenu {
+                z-index:1;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 20px;
+                position: absolute;
+                top: 5px;
+                color: #FFFFFF;
+                left:1100px;
+                float:right;
+      }
+      #name {
+                z-index:1;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 50px;
+                position: absolute;
+                top: 150px;
+                color: #FFFFFF;
+                left:350px;
+      }
+      #tagline {
+                z-index:1;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                font-weight: lighter;
+                position: absolute;
+                top: 230px;
+                color: #FFFFFF;
+                left:530px;
+      }
+      #small{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 13px;
+          margin-bottom: 0;
+          padding-bottom: 0;
+          color: white;
+          position: absolute;
+          z-index: 1;
+          top:1500px;
+          left:20px;
+      }
+      #footerimg{
+        margin: 0;
+        padding: 0;
+        height:250px;
+        width: 100%;
+      }
+      html{
+        margin: 0 !important;
+        padding: 0 !important;
+      }

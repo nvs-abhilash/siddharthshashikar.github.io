@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Siddharth Shashikar</title>
+    <link rel ="stylesheet" type="text/css" href="styles.css">
+    <script>
+      function change(){
+        document.getElementById("name").innerHTML = "$!d....@r+";
+        // SID.....ART
+        document.getElementById("name").style.marginLeft="175px";
+      }
+      function back(){
+        document.getElementById("name").innerHTML = "SIDDHARTH SHASHIKAR";
+        document.getElementById("name").style.marginLeft="0";
+      }
+      </script>
+</head>
+  
+<body>
+<div class="container">
+  <div id="header">
+      <img src="assets/header.jpg" alt="image"/>
+      <!--images/bbclogo.png-->
+      <!--assets/code.png-->
+        <p id="name" onmouseover="change()" onmouseout="back()">SIDDHARTH SHASHIKAR</p>
+        <p id="tagline"><em>Developer Designer Doodler</em></p>
+  </div>
+  <div id="aboutme">
+    <p class="about">About Myself</p>
+        <img src = "assets/face2.jpg" alt = "myphoto" id="facepic" />
+        <img src = "assets/books.png" alt = "myphoto" id="books" />
+        <img src = "assets/code.png" alt = "myphoto" id="code" />
+        <img src = "assets/paint.png" alt = "myphoto" id="paint" />
+        <img src = "assets/football.png" alt = "myphoto" id="football" />
+  </div>
+  <div id="contactme">
+      <p class="contact">Contact</p>
+      <div id="block"></div>
+      <p class="email">siddharth.shashikar@st.niituniveristy.in</p>
+      <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" id="nav1" class="box"></a>
+      <a href="https://github.com/"><img src="assets/github.png" alt="github" id="nav2" class="box"></a>
+      <a href="https://plus.google.com/"><img src="assets/google+.png" alt="googleplus" id="nav3" class="box"></a>
+  </div>
+
+  <div id="footer">
+    <img src="assets/footer.jpg" alt="footer img" id="footerimg"/>
+    <small id="small"><p>ALL CONTENT COPYRIGHT 2016</p></small>
+   </div>  
+  </div>
+</div>
+</body>
+</html>
