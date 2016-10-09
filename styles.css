@@ -1,199 +1,177 @@
-    body{
-      margin: 0;
-      padding: 0;
-      }
-    #header{
-        margin: 0;
-        padding: 0;
-        height:400px;
-        width: 100%;
-      }
+body{
+margin: 0;
+padding: 0;
+}
+#Head{
+margin: 0;
+padding: 0;
+}
+.parallax{
+background-image: url(assets/header.jpg);
+min-height: 460px;
+width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+#name {
+z-index:1;
+font-family: 'Amatica SC';
+font-size: 100px;
+position: absolute;
+top: 120px;
+text-align: center;
+padding-left:350px;
+color: #FFFFFF;            
+}
+#kicker {
+z-index:1;
+font-family: 'Amatica SC';
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+position: absolute;
+top: 240px;
+color: #FFFFFF;
+padding-left: 580px;
+padding-top:20px;
+}
+.header-nav{
+float: right;
+padding: 10px;
+margin: 10px;
+}
+ul{
+list-style: none;
+}
+li{
+display: inline;
+font-family: 'Amatica SC';
+font-size: 35px;
+color: #FFFFFF;       
+}
+a:link {
+color: #FFFFFF;
+text-decoration: none;
+}
+a:visited {
+color: #FFFFFF;
+text-decoration: none;
+}
+a:hover {
+color: #FFFFFF;
+text-decoration: none;
+}
+a:active {
+color: #FFFFFF;
+text-decoration: none;
+}
 
-    #aboutme{
-        margin: 0;
-        padding: 0;
-        height:490px;
-        width: 100%;
-        background-color:#F4C790;
-      }
+#About{
+height: 450px;
+background-color: #C99452; 
+}
+#aboutmyself{
+font-family: 'Amatica SC';
+font-size: 70px;
+color: #FFFFFF;
+padding-left:65px;
+text-align: center;
+}
+p{
+padding:0;
+margin:0;
+}
 
-    #contactme{
-        margin: 0;
-        padding: 0;
-        height:400px;
-        width: 100%;
-        background-color:#FFFFFF;
-      }
+#facepic{
+width:200px;
+height:200px;
+border-radius:50%;
+position:relative;
+top:20px;
+left:600px;
+}
+#books{
+width:110px;
+height:110px;
+border-radius:55%;
+position: relative;
+top:-15px;
+padding: 10px;
+left:115px;
+} 
+#code{
+width:110px;
+height:110px;
+border-radius:55%;
+position:relative;
+top:-15px;
+left:120px;
+padding:10px;
+}
 
-    #footer{
-        margin: 0;
-        padding: 0;
-        height:150px;
-        width: 100%;
-      }
-      img{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        height: 400px;
-      }
-      .about{
-        font-family: Verdana,Geneva,sans-serif;
-        font-size:38px;
-        color : white;
-        text-align:center;
-        font-weight:normal;
-        position:relative;
-        top:40px;
-      }
-      .contact{
-        font-family: Verdana,Geneva,sans-serif;
-        font-size:38px;
-        color : #C99452;
-        text-align:center;
-        font-weight:normal;
-        position:relative;
-        top:40px;
-      }
-      .email{
-        font-family: Verdana,Geneva,sans-serif; 
-        font-size:38px;
-        color : #C99452;
-        text-align:center;
-        font-weight:normal;
-        position:relative;
-        top:110px;
-      }
-      p{
-        padding:0;
-        margin:0;
-      }
-      #facepic{
-          width:200px;
-          height:200px;
-          border-radius:50%;
-          position:relative;
-          top:100px;
-          left:550px;
-      }
-      #books{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:50px;
-          left:100px;
-      }
-
-      #code{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:50px;
-          left:120px;
-      }
-
-      #paint{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:50px;
-          left:370px;
-      }
-
-      #football{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:50px;
-          left:390px;
-      }
-
-      #block{
-        background-color:#C99452 ;
-        width:40%;
-        height:20px;
-        position:relative;
-        top:70px;
-        left:390px;
-      }
-      #nav1{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:150px;
-          left:400px;
-      }
-      #nav2{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:150px;
-          left:485px;
-      }
-      #nav3{
-          width:100px;
-          height:100px;
-          border-radius:50%;
-          position:relative;
-          top:150px;
-          left:560px;
-      }
-      a img:hover{
-        box-shadow: 1px 6px 20px 0 rgba(0, 0, 0, 0.5);
-      }
-      #topmenu {
-                z-index:1;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 20px;
-                position: absolute;
-                top: 5px;
-                color: #FFFFFF;
-                left:1100px;
-                float:right;
-      }
-      #name {
-                z-index:1;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 50px;
-                position: absolute;
-                top: 150px;
-                color: #FFFFFF;
-                left:350px;
-      }
-      #tagline {
-                z-index:1;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 18px;
-                font-weight: lighter;
-                position: absolute;
-                top: 230px;
-                color: #FFFFFF;
-                left:530px;
-      }
-      #small{
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          font-size: 13px;
-          margin-bottom: 0;
-          padding-bottom: 0;
-          color: white;
-          position: absolute;
-          z-index: 1;
-          top:1500px;
-          left:20px;
-      }
-      #footerimg{
-        margin: 0;
-        padding: 0;
-        height:250px;
-        width: 100%;
-      }
-      html{
-        margin: 0 !important;
-        padding: 0 !important;
-      }
+#paint{
+width:110px;
+height:110px;
+border-radius:55%;
+position:relative;
+top:-15px;
+padding:10px;
+left:335px;
+}
+#football{
+width:120px;
+height:120px;
+border-radius:60%;
+position:relative;
+top:-10px;
+padding: 10px;
+left:330px;
+}
+.contact{
+font-family: 'Amatica SC';
+font-size:70px;
+text-align:center;
+padding-left: 60px;
+color: #FFFFFF;
+}
+#block{
+background-color:#FFFFFF ;
+height:10px;
+width: 500px;
+position:relative;
+z-index: 1;
+top:15px;
+left:455px;
+}
+#email-id{
+font-size:38px;
+font-family: 'Amatica SC';
+color : #FFFFFF;
+text-align:center;
+padding-left: 50px;
+padding-top:30px;
+}
+.nav{
+width:80px;
+height:80px;
+border-radius:50%;
+position:relative;
+padding:20px;
+top:50px;
+left:315px;
+}
+a img:hover{
+box-shadow: 1px 6px 20px 0 rgba(0, 0, 0, 1);
+}
+small{
+font-size:18px;
+font-weight: bold;
+font-family: 'Amatica SC';
+position: relative;
+padding: 0;
+margin: 0;
+top:120px;
+left: -730px;
+color:white;
+}
