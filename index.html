@@ -1,86 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Developer Designer Doodler">
-      <title>siddharthshashikar.github.io</title>
-      <link rel ="stylesheet" type="text/css" href="styles.css">
-      <link href='https://fonts.googleapis.com/css?family=Amatica+SC' rel='stylesheet' type='text/css'>
-
-
-   <nav class="header-nav">
-    <ul>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul>
-    </nav>
-
-    <script>
-        function change(){
-          document.getElementById("name").innerHTML = "''$!d....@r+''";
-          document.getElementById("name").style.marginLeft="175px";
-        }
-
-        function back(){
-          document.getElementById("name").innerHTML = "SIDDHARTH SHASHIKAR";
-          document.getElementById("name").style.marginLeft="0";
-        }
-      </script>
-</head>
-  
-<body>
-<div class="container">
-  
-  <div id="Head">
-        <div class="parallax"></div>
-        <p id="name" onmouseover="change()" onmouseout="back()">SIDDHARTH SHASHIKAR</p>
-        <p id="kicker">Developer Designer Doodler</p>
-    </div>
-  
-  <div id="About">
-    <p id="aboutmyself">About Myself</p>
-        <img src = "assets/face.jpg" alt = "face" id="facepic"/>
-        <img src = "assets/reading.png" alt = "books" id="books"/>
-        <img src = "assets/code.png" alt = "code" id="code"/>
-        <img src = "assets/paint-palette.png" alt = "paint" id="paint"/>
-        <img src = "assets/football.png" alt = "football" id="football"/>  
-    </div>
-  
-  <div class="parallax">
-    <p class="contact">Contact</p>
-    <div id="Contact"></div>
-    <div id="block"></div>
-      <p id="email-id">siddharth.shashikar@st.niituniveristy.in</p>
-      
-      <a href="https://www.facebook.com/" target="_blank">
-        <img src="assets/facebook.png" alt="facebook" class="nav" class="box">
-      </a>
-      
-      <a href="https://www.linkedin.com/" target="_blank">
-        <img src="assets/linkedin.png" alt="linkedin" class="nav" class="box">
-      </a>
-      
-      <a href="https://twitter.com/" target="_blank">
-        <img src="assets/twitter.png" alt="twitter" class="nav" class="box">
-      </a>
-      
-      <a href="https://in.pinterest.com/" target="_blank">
-        <img src="assets/pinterest.png" alt="facebook" class="nav" class="box">
-      </a>
-      
-      <a href="https://github.com/" target="_blank">
-        <img src="assets/github.png" alt="github" class="nav" class="box">
-      </a>
-      
-      <a href="https://plus.google.com/" target="_blank">
-        <img src="assets/google-plus.png" alt="googleplus" class="nav" class="box">
-      </a>  
-    <small>All contents are copyright 2016.</small>  
-  </div>
- 
-</div>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta author="" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatica+SC" type="text/css">
+    <title>Siddharth Shashikar</title>
+  </head>
+  <body>
+    <header class="back-box">
+      <h1 id="name" onmouseover="change()" onmouseout="back()">Siddharth Shashikar</h1>
+      <h4>Developer Designer Doodler</h4>
+    </header>
+    <section class="content">
+      <h2>About Myself</h2>
+      <div class="aboutme">
+        <div class="item"><img src="images/reading.png"></div>
+        <div class="item"><img src="images/code.png"></div>
+        <div class="item face"><img src="images/face.jpg"></div>
+        <div class="item"><img src="images/paint-palette.png"></div>
+        <div class="item"><img src="images/football.png"></div>
+      </div>
+    </section>
+    <section class="back-box">
+      <h2>Contact</h2>
+      <div id="block"></div>
+      <h3>siddharth.shashikar@niituniversity.in</h3>
+      <div class="aboutme contactme">
+        <div class="item"><a><img src="images/facebook.png"></a></div>
+        <div class="item"><a><img src="images/linkedin.png"></a></div>
+        <div class="item"><a><img src="images/twitter.png"></a></div>
+        <div class="item"><a><img src="images/pinterest.png"></a></div>
+        <div class="item"><a><img src="images/github.png"></a></div>
+        <div class="item"><a><img src="images/google-plus.png"></a></div>
+      </div>
+    </section>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
 </html>

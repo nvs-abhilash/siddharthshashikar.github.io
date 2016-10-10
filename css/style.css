@@ -1,0 +1,75 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+figure {
+  margine: auto; }
+
+h1, h2, h3, h4 {
+  font-family: "Amatica SC";
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px 4px 40px 40px; }
+
+h1 {
+  font-size: 100px; }
+
+h2 {
+  font-size: 70px; }
+
+h4 {
+  font-size: 25px; }
+
+.content {
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #C99452;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  border-radius: 55%; }
+
+.back-box {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.aboutme {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center; }
+
+.item {
+  width: 110px;
+  height: 110px;
+  margin: 0px 20px 0px 20px;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.face {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
+#block {
+  background-color: #FFFFFF;
+  height: 10px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
+
+h3 {
+  font-size: 50px;
+  margin: 50px; }
+
+/*# sourceMappingURL=style.css.map */
